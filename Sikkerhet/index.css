@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal;
+    font-size: 50px;
+    border: solid 5px;
+    }
+    
+    .runner  {
+     background: url(tyv.png);
+     width: 84px;
+     height: 8px;
+     animation: run 1s steps(8) infinite, slide 5s linear infinite;
+     background-position-x: 105px; 
+     z-index: 1;
+
+}
+
+@keyframes run {
+    100% {background-position: -690px}
+}
+
+@keyframes slide {
+    100% { margin-left: 1920px;}
+}
+
+
+div {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 150px;
+}
+
+p   {
+    text-align: center;
+    font-size: 1.5em;
+}
+body {
+    background-color: darkorange;
+}
+
+img {
+    width: 30%;
+    position: relative;
+    left: 640px;
+    top: 100px;
+    z-index: -1;
+}
+form {
+    position: fixed;
+    bottom: 500px;
+    right: 600px;
+    width: 700px;
+}
+
